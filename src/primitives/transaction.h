@@ -257,7 +257,6 @@ inline void SerializeTransaction(const TxType& tx, Stream& s) {
     s << tx.nLockTime;
 }
 
-
 /** The basic transaction that is broadcasted on the network and contained in
  * blocks.  A transaction can contain multiple inputs and outputs.
  */
@@ -373,7 +372,6 @@ struct CMutableTransaction
     inline void Serialize(Stream& s) const {
         SerializeTransaction(*this, s);
     }
-
 
     template <typename Stream>
     inline void Unserialize(Stream& s) {
