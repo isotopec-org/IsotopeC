@@ -62,7 +62,7 @@ public:
     }
 
     uint256 GetHash() const;
-    // Yespower Fork
+    // Yespower
     uint256 GetHashYespower() const;
 
     int64_t GetBlockTime() const
