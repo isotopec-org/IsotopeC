@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2016 The Bitcoin Core developers
-// Copyright (c) 2019 IsotopeC Development Labs
+// Copyright (c) 2019-2020 IsotopeC Development Labs
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -367,7 +367,7 @@ private:
     CAmount amount;
     const CTransaction *ptxTo;
     unsigned int nIn;
-    unsigned int nFlags;
+    uint32_t nFlags;
     bool cacheStore;
     ScriptError error;
     PrecomputedTransactionData *txdata;
