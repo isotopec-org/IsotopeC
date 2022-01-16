@@ -43,7 +43,6 @@ Build IsotopeC
     You can disable test and bench by passing `--disable-tests --disable-bench` to configure.
 
         ./autogen.sh
-        ./configure
         ./configure --disable-tests --disable-bench
         make
 
