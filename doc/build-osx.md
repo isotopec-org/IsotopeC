@@ -24,7 +24,7 @@ If you want to build the disk image with `make deploy` (.dmg / optional), you ne
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
-Build IsotopeC Core
+Build IsotopeC
 ------------------------
 
 1. Clone the IsotopeC source code and cd into `IsotopeC`
@@ -32,7 +32,7 @@ Build IsotopeC Core
         git@github.com:isotopec-org/IsotopeC.git
         cd IsotopeC
 
-2.  Build isotopec-core:
+2.  Build IsotopeC:
 
     Configure and build the headless isotopec binaries as well as the GUI (if Qt is found).
 
