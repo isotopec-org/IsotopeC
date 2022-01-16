@@ -29,17 +29,29 @@ Build IsotopeC
 
 1. Clone the IsotopeC source code and cd into `IsotopeC`
 
-        git@github.com:isotopec-org/IsotopeC.git
+        git clone git@github.com:isotopec-org/IsotopeC.git
         cd IsotopeC
 
 2.  Build IsotopeC:
 
     Configure and build the headless isotopec binaries as well as the GUI (if Qt is found).
 
-    You can disable the GUI build by passing `--without-gui` to configure.
+        ./autogen.sh
+        ./configure
+        make
+
+    You can disable test and bench by passing `--disable-tests --disable-bench` to configure.
 
         ./autogen.sh
         ./configure
+        ./configure --disable-tests --disable-bench
+        make
+
+    You can disable the GUI to run a node by passing `--without-gui` to configure.
+        
+        ./autogen.sh
+        ./configure
+        ./configure --without-gui
         make
 
 3.  It is recommended to build and run the unit tests:
