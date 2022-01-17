@@ -1,5 +1,5 @@
 package=native_ds_store
-$(package)_version=1.1.2
+$(package)_version=1.1.0
 $(package)_download_path=https://github.com/al45tair/ds_store/archive/
 $(package)_file_name=v$($(package)_version).tar.gz
 $(package)_sha256_hash=3b3ecb7bf0a5157f5b6010bc3af7c141fb0ad3527084e63336220d22744bc20c
