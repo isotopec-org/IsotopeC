@@ -81,7 +81,7 @@ install necessary parts of boost:
 
 BerkeleyDB is required for the wallet.
 
-**For Ubuntu only:** db4.8 packages are available [here](https://launchpad.net/~luke-jr/+archive/db48).
+**For Ubuntu only:** db4.8 packages are available [here](https://launchpad.net/~luke-jr/+archive/ubuntu/db48).
 You can add the repository and install using the following commands:
 
     sudo apt-get install software-properties-common
